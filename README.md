@@ -148,7 +148,7 @@ def create_table(cls):
     CONN.commit()
 ```
 
-We need up adapt the `save`, `update`, and `create` methods to persist the new
+We need to update the `save`, `update`, and `create` methods to persist the new
 relationship by storing the department id in the "employees" table:
 
 ```py
